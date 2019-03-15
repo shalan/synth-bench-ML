@@ -29,3 +29,6 @@ Set of Verilog designs (>70) and scripts to extract design metrics. They are int
 - synth_reduced.tcl has several abc scripts. However, only scpt_0, scpt_1 and scpt_2 are used.
 - It is better to normalize the extracted metrics. I suggest dividing them by the cells count (except of the number of levels)
 - The designs are executed according to the design size (ascending order)
+
+**Todo:**
+Speed up the execution on multi-core machines.
