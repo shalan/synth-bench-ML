@@ -1,4 +1,4 @@
-Set of Verilog designs (>70) and scripts to extract design metrics. They are intended for ML experiment.
+Set of Verilog designs (>70) and scripts to extract design metrics. They are intended for ML experimentation.
 
 **Folder structure:**
 - *verilog* (the designs HDL code)
@@ -15,3 +15,12 @@ Set of Verilog designs (>70) and scripts to extract design metrics. They are int
 3) ../scripts/met_ext.sh
 4) Import metrics.csv into Excel or Google sheets
 
+**Design Extracted Metrics**
+- Number of cells [GenLib]
+- Number of FF [GenLib]
+- Number of XOR/XNOR cells [GenLib]
+- Number of MUXes [GenLib]
+- Number of PIs and POs -- module ports as well as FFs Ds and Qs
+- Number of nets [GenLib] 
+- Number of RTL named nets (Public Nets) [GenLib]
+- Number of logic levels [SCL]
